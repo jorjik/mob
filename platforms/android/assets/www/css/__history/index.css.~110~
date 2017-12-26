@@ -170,7 +170,8 @@ body {
 	.box {
 		min-height: 44px
 	}	
-	.dub {
+	.dub,
+	.naz {
 		padding-top: 15px;
 	}
 	.foo2 .box {}

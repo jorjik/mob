@@ -155,10 +155,6 @@ body {
 .foo .box {
 	margin: 3px
 }
-.naz {
-	left: 50%;
-	margin-left: -27px;
-}
 .ico { 
     height: 28px;
     width: 30px;

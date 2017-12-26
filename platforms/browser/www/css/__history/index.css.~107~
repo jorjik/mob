@@ -157,7 +157,7 @@ body {
 }
 .naz {
 	left: 50%;
-	margin-left: -27px;
+	margin-left: -30px;
 }
 .ico { 
     height: 28px;
