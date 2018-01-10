@@ -19,15 +19,6 @@ body {
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) 
 {}
 
-h1 {
-    font-size:24px;
-    font-weight:normal;
-    margin:0px;
-    overflow:visible;
-    padding:0px;
-    text-align:center;
-}
-
 @keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }
@@ -65,6 +56,7 @@ h1 {
 		.divTableCell, .divTableHead {
 			display: table-cell;
 			vertical-align: middle;
+			width: 50%
 		}
 			.divTableHeading {
 				background-color: #EEE;
@@ -134,7 +126,7 @@ body {
 	display:inline-block;
 	text-shadow:1px 1px 0px #ffffff;	
 	text-decoration:none;	
-	padding:9px 8px;
+	padding:9px 8px 7px 8px;
 }
 .myButton:active {
 	position:relative;
@@ -158,10 +150,18 @@ body {
 .naz {
 	left: 50%;
 	margin-left: -27px;
+	bottom: 10px;
 }
 .ico { 
     height: 28px;
     width: 30px;
+}
+.ico_b {
+	padding-bottom: 0
+}
+.ico_b img {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
 }
 
 /* MOBILE */
@@ -187,4 +187,16 @@ body {
 	.foo2 .dub {
 		padding-top: 12px;
 	}
+}
+
+.price_menu .box a {	
+	display: inline-block;
+	vertical-align: middle
+}
+
+.kurs {
+	position: absolute;
+	top: 2em;
+	left: 50%;
+	margin-left: -150px
 }

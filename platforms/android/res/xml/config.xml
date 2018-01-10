@@ -64,10 +64,10 @@
     </feature>
     <name>appSample</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        sample application that show prices.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="grandcazino@gmail.com" href="http://2donow.ru">
+        2donow Team
     </author>
     <content src="index.html" />
     <access origin="*" />
