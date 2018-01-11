@@ -157,8 +157,9 @@ body {
 	text-align: center;
 	width: 60px;
 	padding-left: 50%;
+	margin-left: -30px
 }
-.nazad .box { margin-left: -30px}
+.nazad .box { margin-left: 0 }
 
 .ico { 
     height: 28px;
@@ -209,4 +210,8 @@ body {
 		padding-top: 12px;
 	}
 	.pic { width: 49%; margin: 0 1% 1% 0; float: left}
+}
+.soon {
+	text-align: center;
+	color: aliceblue
 }
