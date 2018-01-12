@@ -1,10 +1,10 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "appSample",
-  "short_name": "appSample",
+  "name": "app_prices",
+  "short_name": "app_prices",
   "version": "com.phonegap.helloworld",
-  "description": "sample application that show prices.",
+  "description": "the application that show prices.",
   "author": "2donow Team",
   "icons": [],
   "start_url": "index.html"

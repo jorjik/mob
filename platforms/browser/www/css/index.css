@@ -17,7 +17,9 @@ body {
 
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) 
-{}
+{
+	.pog {display: none;}
+}
 
 @keyframes fade {
     from { opacity: 1.0; }
@@ -37,9 +39,12 @@ body {
 }
 
 /* commun */
-.com1,
-.com2 {
+.com1{
 	padding: 20px 10px;
+	text-align: center;
+}
+.com2 {
+	padding: 5px 10px;
 	text-align: center;
 }
 /* DivTable */
@@ -152,6 +157,15 @@ body {
 	margin-left: -27px;
 	bottom: 10px;
 }
+.nazad {
+	clear: both;
+	text-align: center;
+	width: 60px;
+	padding-left: 50%;
+	margin-left: -30px
+}
+.nazad .box { margin-left: 0 }
+
 .ico { 
     height: 28px;
     width: 30px;
@@ -164,6 +178,18 @@ body {
 	border-top-right-radius: 6px;
 }
 
+.price_menu .box a {	
+	display: inline-block;
+	vertical-align: middle
+}
+
+.kurs {
+	position: absolute;
+	top: 2em;
+	left: 50%;
+	margin-left: -150px
+}
+
 /* MOBILE */
 @media (max-width: 480px) 
 {
@@ -174,6 +200,7 @@ body {
 		padding-top: 15px;
 	}
 	.foo2 .box {}
+	.pic { margin-bottom: 1% }
 }
 /* TABLET */
 @media (min-width: 768px) 
@@ -187,16 +214,9 @@ body {
 	.foo2 .dub {
 		padding-top: 12px;
 	}
+	.pic { width: 49%; margin: 0 1% 1% 0; float: left}
 }
-
-.price_menu .box a {	
-	display: inline-block;
-	vertical-align: middle
-}
-
-.kurs {
-	position: absolute;
-	top: 2em;
-	left: 50%;
-	margin-left: -150px
+.soon {
+	text-align: center;
+	color: aliceblue
 }

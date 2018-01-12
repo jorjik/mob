@@ -62,9 +62,9 @@
     <feature name="Media">
         <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
     </feature>
-    <name>appSample</name>
+    <name>app_prices</name>
     <description>
-        sample application that show prices.
+        the application that show prices.
     </description>
     <author email="grandcazino@gmail.com" href="http://2donow.ru">
         2donow Team
@@ -99,5 +99,4 @@
     <preference name="loglevel" value="DEBUG" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
-    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
 </widget>
