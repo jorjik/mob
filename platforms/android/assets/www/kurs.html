@@ -8,40 +8,22 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
     <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
     <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
-    <!-- Good default declaration:
-    * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-    * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-    * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-        * Enable inline JS: add 'unsafe-inline' to default-src
-        * Enable eval(): add 'unsafe-eval' to default-src
-    * Create your own at http://cspisawesome.com
-    -->
-    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+	
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Курс валют</title>
-		<!--<base href="http://i.ua">-->
+
 </head>
-<body class="">
-   
-	<div class="kurs">
-
-		<!--valuta.today generic ukraine 300x220 --><div id="valuta-today-generic-ukraine-300x220"><a href="https://valuta.today/ukraine" title="Курсы валют в Украине" target="_blank">Курсы валют в Украине</a></div><script type="text/javascript">
-  	(function() {var i = '<ifr'+'ame src="https://valuta.today/media/informers/html/generic-ukraine.html" width="300" height="220" frameborder="0" vspace="0" scrolling="no" hspace="0"></ifr'+'ame>';var container = document.getElementById("valuta-today-generic-ukraine-300x220");container.parentNode.innerHTML = i;})();
-  	</script><!--//valuta.today generic ukraine 300x220 -->
-
+<body>
+	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQWuRDdrXIirh-36QzkAtx-tVZtYVCCgaV3uwcL631JgoAU_hCe0BzAvq_oCcOtQPfXDbvnOJd9pG_Q/pubhtml?widget=true&amp;headers=false" height="571px" width="100%"></iframe>
+	
+  <div class="foo naz">		
+		<div class="box r"><a href="index.html" class="myButton dub">Назад</a></div>	
 	</div>
 	
-  <div class="foo naz">
-		<div class="">
-			<div class="box r"><a href="index.html" class="myButton dub">Назад</a></div>
-		</div>	
-	</div>
-	
-    <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript">
-        app.initialize();
-    </script>
+	<!--script type="text/javascript" src="../cordova.js"></script>
+	<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../js/index.js"></script>
+	<script type="text/javascript">
+			//app.initialize();
+	</script-->
 </body>
 </html>
