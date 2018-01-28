@@ -194,6 +194,8 @@ body {
 	margin-left: -150px
 }
 
+.cat a { color: #EEE}
+
 /* MOBILE */
 @media (max-width: 480px) 
 {
