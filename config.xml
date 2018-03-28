@@ -11,7 +11,7 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
 
-    <icon src="res/icon_klimat.png" />
+    <icon src="www/res/icon_klimat.png" />
 
     <access origin="*" />
     <allow-intent href="http://*/*" />
