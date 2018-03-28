@@ -1,11 +1,17 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "app_prices",
-  "short_name": "app_prices",
+  "name": "klimat",
+  "short_name": "klimat",
   "version": "com.phonegap.helloworld",
   "description": "the application that show prices.",
-  "author": "2donow Team",
-  "icons": [],
+  "author": "Evgeniy Gribkov",
+  "icons": [
+    {
+      "src": "www/res/logo_klimat.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
   "start_url": "index.html"
 }
