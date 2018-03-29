@@ -7,7 +7,9 @@
     <author email="grandcazino@gmail.com" href="http://2donow.ru">
         Evgeniy Gribkov
     </author>
-    <content src="index.html" />
+    
+    <content src="login.html" />
+
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
 
