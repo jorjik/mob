@@ -199,6 +199,8 @@ body {
 
 .cat a { color: #EEE}
 
+.login p { text-align: center}
+
 /* MOBILE */
 @media (max-width: 480px) 
 {
