@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.helloworld" version="1.5.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>klimat</name>
     <description>
         the application that show prices.
@@ -16,8 +16,8 @@
     <icon src="www/res/logo_klimat.png" />
 
     <allow-navigation href="*" />
-
     <access origin="*" />
+
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -26,6 +26,8 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
+        <allow-intent href="http://*/*" />
+        <allow-intent href="https://*/*" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
