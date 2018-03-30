@@ -7,10 +7,12 @@
       "android"
     ],
     "plugins": {
+      "cordova-plugin-console": {},
       "cordova-plugin-whitelist": {}
     }
   },
   "dependencies": {
+    "cordova-plugin-console": "~1.0.2",
     "cordova-plugin-whitelist": "~1.2.1"
   }
 }
