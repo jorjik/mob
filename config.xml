@@ -15,7 +15,7 @@
 
     <icon src="www/res/logo_klimat.png" />
 
-    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.2.1" />
     <allow-navigation href="*" />
     <access origin="*" />
 
