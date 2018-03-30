@@ -24,23 +24,26 @@
   <script type="text/javascript">
     // jQuery CORS example
     $.ajax({
-        xhrFields: {
-            withCredentials: true
-        },
-        type: "GET",
-        url: "https://www.klimat.com.ua/mob/ajax.php"
-    }).done(function (data) {
-        
-        var $pass = data; //console.log($pass);
-        if ($pass != ""){
-              pass = prompt('Ваш пароль:');
-              if (pass==$pass) { // проверка
-                location='index.html'  
-              } else { 
-                alert('Не верно'), location='no_auth.html' 
-              }
-        }
-    });
+            xhrFields: {
+                withCredentials: true
+            },
+            type: "GET",
+            url: "https://www.klimat.com.ua/mob/ajax.php"
+        })
+        .done(function (data) {        
+            var $pass = data; //console.log($pass);
+            if ($pass != ""){
+                pass = prompt('Ваш пароль:');
+                if (pass==$pass) { // проверка
+                    location='index.html'  
+                } else { 
+                    alert('Не верно'), location='no_auth.html' 
+                }
+            }
+         })
+         .fail(function() {
+            alert( "error: " + textStatus );
+        });
 
     // XMLHttpRequest
     /*var xhr = new XMLHttpRequest();
