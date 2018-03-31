@@ -1,5 +1,4 @@
 
-/*
 var app = {
     // Application Constructor
     initialize: function() {
@@ -31,4 +30,3 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
-*/

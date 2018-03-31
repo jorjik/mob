@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.3.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.helloworld" version="1.5.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>klimat</name>
     <description>
         the application that show prices.
@@ -7,15 +7,11 @@
     <author email="grandcazino@gmail.com" href="http://2donow.ru">
         Evgeniy Gribkov
     </author>
-    <content src="index.html" />
+    <content src="login.html" />
     <icon src="www/res/logo_klimat.png" />
+    <allow-navigation href="*" />
     <access origin="*" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
+    <allow-intent href="*" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
 </widget>
