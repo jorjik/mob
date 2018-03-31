@@ -7,19 +7,14 @@
     <author email="grandcazino@gmail.com" href="http://2donow.ru">
         Evgeniy Gribkov
     </author>
-    
     <content src="login.html" />
-
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
-
     <icon src="www/res/logo_klimat.png" />
-
     <plugin name="cordova-plugin-whitelist" spec="~1.2.1" />
     <allow-navigation href="*" />
     <access origin="*" />
     <allow-intent href="*" />
-
     <platform name="android">
         <allow-intent href="market:*" />
         <allow-intent href="*" />
@@ -28,6 +23,5 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    
     <engine name="android" spec="~6.3.0" />
 </widget>
