@@ -1,6 +1,6 @@
 {
   "name": "com.phonegap.helloworld",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "displayName": "klimat",
   "cordova": {
     "platforms": [
