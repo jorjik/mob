@@ -161,7 +161,7 @@ body {
 }
 .naz {
 	left: 50%;
-	margin-left: -27px;
+	margin-left: -32px;
 	bottom: 10px;
 }
 .nazad {
@@ -185,9 +185,12 @@ body {
 	border-top-right-radius: 6px;
 }
 
+.price_menu {	
+	padding-bottom: 4em
+}
 .price_menu .box a {	
 	display: inline-block;
-	vertical-align: middle
+	vertical-align: middle;
 }
 
 .kurs {
