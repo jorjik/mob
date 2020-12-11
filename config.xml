@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="3.9.21" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.helloworld" version="3.9.22" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>klimat</name>
     <description>
         the application that show prices.
@@ -24,4 +24,6 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <engine name="android" spec="~6.3.0" />
+		<preference name="AndroidPersistentFileLocation" value="Compatibility" />
+		<preference name="AndroidExtraFilesystems" value="files,cache, sdcard, cache-external, files-external" />
 </widget>
