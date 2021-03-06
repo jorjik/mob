@@ -1,0 +1,12 @@
+{
+	"android": {
+		"release": {
+			"keystore": "../jorjik.keystore",
+			"storePassword": "666666",
+			"alias": "jorjik",
+			"password" : "666666",
+			"keystoreType": "",
+			"packageType": "bundle"
+		}
+	}
+}
